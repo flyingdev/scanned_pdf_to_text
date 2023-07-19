@@ -1,0 +1,48 @@
+# Python compiled byte code
+*.pyc
+__pycache__/
+
+*.pyo
+*.db
+*.pot
+*.doctree
+*.swp
+.vscode
+.doctrees
+.DS_Store
+.coverage
+.idea/
+.pytest_cache
+junit/
+local_settings.py
+.eggs/
+.tox/
+venv/
+build/
+docs/build/
+docs/_build/
+dist/
+htmlcov/
+
+/static/**
+/media/**
+#!/media/**/
+db.sqlite3
+
+# temp
+temp/**
+
+# Telegram session
+*.session
+
+# exception
+!*.gitkeep
+
+# environment
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+dtb_venv/
